@@ -20,4 +20,24 @@
  * and
  * concat
  */
+// 1.Define a function named isTrue that takes in any input and returns     true if the input provided is exactly equal to true in value and       data type.
+function isTrue(x) {
+    return x === true;
+}
+console.log(isTrue(true));
+console.log(isTrue(false));
+console.log(isTrue(23));
+console.log(isTrue("string"));
+
+// 2. Define a function named isFalse that takes in a value and returns     a true if and only if the provided input is equal to false in both     type and value.
+function isFalse(x) {
+    if (x !== true)
+    return x = false;
+}
+console.log(isFalse(false));
+console.log(isFalse(true));
+console.log(isFalse(undefined));
+console.log(isFalse(null));
+console.log(isFalse(54));
+console.log(isFalse("string"));
 
